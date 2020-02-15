@@ -1,10 +1,11 @@
-package pl.springboot.week3.homework3.services;
+package pl.springboot.week3.homework3.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.springboot.week3.homework3.model.Vehicle;
+import pl.springboot.week3.homework3.services.VehicleService;
 
 import java.util.List;
 import java.util.Optional;
